@@ -82,6 +82,7 @@ namespace Train
             try
             {
                 int liczba_ok = int.Parse(dane);
+                if (liczba_ok <=0) throw new ArgumentOutOfRangeException();
                 
             }
             catch
